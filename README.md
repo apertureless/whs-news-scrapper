@@ -37,7 +37,7 @@ Then you need to install pm2 which is a process manager for nodeapps.
 
 ```
 npm install pm2 -g
-``
+```
 
 Then you can run
 
