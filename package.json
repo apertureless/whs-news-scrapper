@@ -1,0 +1,13 @@
+{
+  "name": "insiderscrapper",
+  "main": "scraper.js",
+  "description": "Small webscrapper for w-hs.de insider news system.",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "dotenv": "^1.2.0",
+    "node-slack": "0.0.7",
+    "request": "^2.64.0",
+    "underscore": "^1.8.3"
+  }
+}
