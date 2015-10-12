@@ -30,3 +30,17 @@ SLACK_BOT_NAME = Bot
 REFRESH_TIME = 60
 ```
 
+## Run on server
+
+Make sure you have nodejs and npm on your server. You can install them via apt-get on your ubuntu server.
+Then you need to install pm2 which is a process manager for nodeapps.
+
+```
+npm install pm2 -g
+``
+
+Then you can run
+
+```
+pm2 start scrapper.js
+```
