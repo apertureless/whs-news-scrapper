@@ -8,6 +8,12 @@
     "dotenv": "^1.2.0",
     "node-slack": "0.0.7",
     "request": "^2.64.0",
-    "underscore": "^1.8.3"
-  }
+    "underscore": "^1.8.3",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
